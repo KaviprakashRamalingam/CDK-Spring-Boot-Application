@@ -1,6 +1,6 @@
 # Career Development Kit (CDK)
 
-![CDK Logo](images/cdk_logo.png)
+<img src="images/logo.png" alt="CDK Logo" width="400"/>
 
 ## About
 
@@ -28,17 +28,19 @@ Career Development Kit (CDK) is a Spring Boot application designed to facilitate
 
 The landing page serves as the home page with the URL `http://localhost:8080/`. Users have the options to either register as a new user or login as an existing user.
 
-![Landing Page](images/landing_page.png)
+![Landing Page](images/landing.png)
 
 ### Registration
 
 Clicking on the register option directs users to `http://localhost:8080/register`, where they can input the necessary details and register. Validation is applied using Validators in the code to ensure data integrity.
 
-![Registration Page](images/registration_page.png)
+<div align="center"><img src="images/register.png" alt="Register" width="400"/></div>
 
 ### Login
 
 Clicking on the login option takes users to `http://localhost:8080/login`, where Spring Security ensures seamless login authentication. The login form utilizes form-based authentication of Spring Security and validates against custom validation from the MySQL DB.
+
+![Login Page](images/login.png)
 
 ### Google OAuth2 Login
 
@@ -48,7 +50,7 @@ Users also have the option to login using Google OAuth2 client. Clicking this op
 
 The welcome page (`http://localhost:8080/welcome_user.htm`) displays all the jobs posted so far. Pagination is implemented to maintain efficiency, displaying 10 records per page with the option to browse further pages.
 
-![Welcome Page](images/welcome_page.png)
+![Welcome Page](images/welcome.png)
 
 ### Job Search
 
