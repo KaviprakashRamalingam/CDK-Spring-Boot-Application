@@ -1,0 +1,45 @@
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/view/
+      suffix: .jsp
+  mail:
+    username: cdk.pvt.ltd@gmail.com
+    properties:
+      mail:
+        smtp:
+          starttls:
+            required: true
+            enable: true
+          auth: true
+          transport:
+            protocol: smtp
+    host: smtp.gmail.com
+    port: 587
+    password: ydzn ptqd bjsi kuhu
+
+      
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: 4628107435-1fb81g5jkvd5r25jfelo80dpk0eslp7l.apps.googleusercontent.com
+            client-secret: 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
+            scope:
+            - email
+            - profile
+            
+            
+#logging:
+#  level:
+#    org:
+#      springframework:
+#        security: DEBUG
+
+server:
+  error:
+    path: /error
+    whitelabel:
+      enabled: false
+        
